@@ -1,0 +1,1 @@
+# If the directory is missing, Cucumber throws `Error: ENOENT: no such file or directory`.

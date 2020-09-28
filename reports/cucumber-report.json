@@ -1,0 +1,57 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Some feature",
+    "line": 1,
+    "id": "some-feature",
+    "tags": [],
+    "uri": "features/feature-files/foo.feature",
+    "elements": [
+      {
+        "id": "some-feature;",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3626000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 3,
+            "name": "a step is undefined",
+            "match": {
+              "location": "features/step-definitions/foo.steps.ts:3"
+            },
+            "result": {
+              "status": "pending",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
